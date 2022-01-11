@@ -51,7 +51,8 @@ const hottestDays = function (temperatures, threshhold) {
  *       all previous functions
  *******************************************/
 const logHottestDays = function (temperatures, threshhold) {
-    toCelsius(hottestDays(logger(temperatures), threshhold))
+    //toCelsius(hottestDays(logger(temperatures), threshhold))
+    logger(toCelsius(hottestDays(temperatures, threshhold)))
 };
 
 /* Uncomment the following lines to test your code... */
